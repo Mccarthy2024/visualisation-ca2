@@ -1,0 +1,19 @@
+/* --- Fix dark mode --- */
+
+/* Make hero + light sections go dark */
+.dark-mode #hero,
+.dark-mode .bg-light {
+  background-color: #121212 !important;
+}
+
+/* Navbar text visible in dark mode */
+.dark-mode .navbar,
+.dark-mode .navbar a {
+  color: #f8f9fa !important;
+}
+
+/* Optional: subtitles a bit lighter in dark mode */
+.dark-mode .section-subtitle {
+  color: #bbbbbb;
+}
+
